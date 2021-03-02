@@ -1,0 +1,19 @@
+body {
+padding: 50px;
+}
+
+.swiper-container {
+  height: 800px;
+  width: 90%;
+}
+.swiper-slide {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.swiper-button-prev {
+  color: white; 
+}
+.swiper-button-next {
+  color: white; 
+}

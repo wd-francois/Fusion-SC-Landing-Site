@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="theme-color" content="#000000"/>
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
     <title>Fusion Strenght & Conditioning </title>
-
+  </head>
 <!--Navbar-->
 
   <header class="text-gray-700 body-font">
@@ -29,17 +32,58 @@
         <h2 class="my-2 max-w-lg text-2xl font-light leading-tight text-white md:text-3xl lg:text-4xl">Online Personal Training</h2>
         <p class="text-center max-w-lg text-xl text-gray-500 mb-2 md:text-base lg:text-xl">Personalised online training & nutrition coaching.</p>
        </div>
+<!-- Slider main container -->
+<div class="swiper-container">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+  <div class="swiper-slide">
+    <img alt="..." src="assets/img/online1.png" class="inset-0 object-cover"></div>
+  <div class="swiper-slide">
+    <img alt="..." src="assets/img/online2.png" class="inset-0 object-cover"></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
 
-    <div class="w-full md:w-1/2">
-        <img alt="..." src="assets/img/online.pt.jpg" class="inset-0 object-cover" id="online">
-    </div>
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+
+</div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+const swiper = new Swiper('.swiper-container', {
+  // Optional parameters
+
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+</script>
 </div>
  <section class="relative py-16 bg-white min-w-screen animation-fade animation-delay">
     <div class="container px-0 px-8 mx-auto sm:px-12 xl:px-5">
              <h3 class="mt-1 text-center text-2xl font-bold text-gray-800 sm:mx-6 sm:text-3xl md:text-4xl lg:text-5xl sm:text-center sm:mx-0">
-   <!-- FAQ Secton -->
-<section class="relative py-16 bg-white min-w-screen animation-fade animation-delay">
-    <div class="container px-0 px-8 mx-auto sm:px-12 xl:px-5">
-             <h3 class="mt-1 text-center text-2xl font-bold text-gray-800 sm:mx-6 sm:text-3xl md:text-4xl lg:text-5xl sm:text-center sm:mx-0">
-            Frequently Asked Questions - Coming Soon</h3>
-     </body>
+        Frequently Asked Questions - Coming Soon</h3>
+ </section>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-08008385-31b3-4b9f-9a7f-1a702a3377a2"></div>  
+    </body>  
+    
