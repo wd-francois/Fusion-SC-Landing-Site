@@ -5,7 +5,7 @@ padding: 50px;
 .swiper-container {
   height: 800px;
   width: 90%;
-}
+ }
 .swiper-slide {
 display: flex;
 justify-content: center;
